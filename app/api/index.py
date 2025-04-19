@@ -19,6 +19,3 @@ def get_script():
         return "Not Authorized", 403
     
     return SCRIPT_CONTENT
-
-if __name__ == "__main__":
-    app.run()
